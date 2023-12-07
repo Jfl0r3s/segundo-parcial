@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>carpinteria flores</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <div class="header-title">
+                <h1>Inicio</h1>
+            </div>
+
+            <div class="header-center">
+                <div id="real-time-clock"></div>
+            </div>
+
+            <div class="header-company">
+                <div class="company-name">Carpinteria Flores</div>
+            </div>
+        </div>
+        <nav class="secondary-menu">
+            <!-- Repetir los mismos elementos del menú principal -->
+        </nav>
+    </header>
+
+    <main>
+        <div class="column-left">
+            <h2>Productos</h2>
+            <ul>
+                <li><a href="#link1">Mesas</a></li>
+                <li><a href="#link2">Sillas</a></li>
+                <li><a href="#link3">Puertas</a></li>
+            </ul>
+            <div class="product-images">
+                <img src="silla.jpg" alt="Product 1" style="width: 150px;">
+                <img src="sillajardin.jpg" alt="Product 2" style="width: 150px;">
+                <img src="mesapeq.jpg" alt="Product 3" style="width: 150px;">
+                <img src="juegocomedor.jpg" alt="Product 4" style="width: 150px;">
+            </div>
+        </div>
+        
+
+        <div class="column-right">
+           
+                <div class="product-image" style="flex: 30%;">
+                    <img src="comedor.jpg" alt="comedor " style="width: 150px">
+                </div>
+                <div class="product-details" style="flex: 40%;">
+                    <h2>Comedor</h2>
+                    <p>Comedor de madera</p>
+                 
+                </div>
+            
+
+                <div class="buttons-container" style="flex: 30%;">
+                    <button id="clickCounterBtn">Contador de Clics</button>
+                    <button id="changeStylesBtn">Cambiar Estilos</button>
+                </div>
+
+            <div class="product-features">
+                <h3>Características</h3>
+                <ul>
+                    <li>Madera de roble</li> 
+                    <li>90 x 210 cm</li>
+                    <li>barniz brillante</li>
+                    <!-- Agrega más características según sea necesario -->
+                </ul>
+            </div>
+
+            <div class="table-part">
+                <table>
+                    <tr>
+                        <td>Metodos de pago</td>
+                        <td>Efectivo, Tranferencia, QR</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="related-products-title">Productos Relacionados</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="mesapeq.jpg" alt="mesa pequeña" style="width: 150px;">
+                            <p>Mesa pequeña</p>
+                        </td>
+                        <td>
+                            <img src="juegocomedor.jpg" alt="Juego comedor" style="width: 150px;">
+                            <p>Juego comedor</p>
+                        </td>
+                        <td>
+                            <img src="silla.jpg" alt="Producto 3" style="width: 150px;">
+                            <p>Silla de madera</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <!-- Contenido del pie de página -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
